@@ -1,0 +1,32 @@
+/* ============================================
+   Styles for Color Changer App
+   Author: Danny Morton
+   Description: Defines the layout and color box style
+   ============================================ */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  font-family: sans-serif;
+}
+
+/* The colored box */
+#colorBox {
+  width: 200px;
+  height: 200px;
+  background-color: steelblue; /* default color */
+  margin-bottom: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+/* The button */
+button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
