@@ -2,6 +2,17 @@
 
 A full-stack web app that lets users search for movies, view details, and manage a personalized watchlist, including ratings, notes, and a watched list. Users can also email themselves their watchlist.
 
+## To Run the project 
+
+```bash 
+$ cd MovieProject
+$ npm install
+$ npm run dev
+```
+[getting Started]("https://vuejs.org/guide/quick-start")
+Follow the guide here to get the hang of navigating the repo and getting some basic things up and going. 
+
+
 ## Documentation
 Every PR will have to include documentation. Refer to the Documentation Example folder on documenting code and providing use case documentation.
 
@@ -32,9 +43,7 @@ Every PR will have to include documentation. Refer to the Documentation Example 
 # Recommended Stack
 
 ## Frontend (client):
-- Vanilla JS
-- HTML, CSS
-- Axios for requests
+- Vue.js
 
 ## Backend (server):
 - Node.js + Express
